@@ -65,51 +65,62 @@ L’application permet de présenter une boutique en ligne simple avec :
 1. Installer les dépendances Angular :
    ```bash
    npm install
-
-2. Lancer le serveur Angular : :
-   ```bash
-   ng serve
+2. Lancer le serveur Angular :
+    ```bash
+    ng serve
 3. Assurer que le backend est lancé et accessible sur http://localhost:8081.
-4. Ouvrir dans un navigateur :
-   http://localhost:4200
+4. Ouvrir dans un navigateur : http://localhost:4200
+
+
+---
+
 ## Captures d’écran
- ### Page d’accueil (HomeComponent)
-![img.png](img.png)
+
+### Page d’accueil (HomeComponent)
+
+![img.png](img.png)![Page d’accueil](captures/home.png)  
 *La page d’accueil affiche un bandeau de bienvenue et une sélection des produits populaires.*
 
 ---
 
 ### Liste des produits (ProductsComponent)
 
- ![img_1.png](img_1.png)
+![img_1.png](img_1.png) 
 *Cette page présente les produits sous forme de tableau avec ID, nom, prix, état de sélection, et bouton de suppression.*
 
 ---
 
 ### Icônes de sélection
 
-![img_2.png](img_2.png)
+![img_2.png](img_2.png) 
 *Un clic sur l’icône change l’état du produit (sélectionné ou non). Cela s’affiche avec une icône `bi-check-circle` ou `bi-circle`.*
 
 ---
 
 ### Suppression de produit
 
-![img_5.png](img_5.png)  
+![img_3.png](img_3.png)
 *Lorsque l’utilisateur clique sur la corbeille, une boîte de confirmation s’affiche avant suppression du produit.*
+![img_4.png](img_4.png)
+*Liste de produits apres la suppression*
+
 
 ---
 
 ### Barre de navigation
-
-![img_3.png](img_3.png) 
+![img_5.png](img_5.png)
 *La barre de navigation permet de passer facilement de la page d’accueil à la page produits. Elle est responsive et intègre un champ de recherche (non fonctionnel dans cette version).*
 
 ---
 
 ### Produits populaires (en cartes)
-![img_4.png](img_4.png)
+
+![img_6.png](img_6.png)
 *Les produits populaires sont affichés dans des cartes modernes avec des icônes (ordinateur, smartphone, etc.) et un bouton "Voir plus".*
 
 ---
+## Vidéo de démonstration
 
+La vidéo suivante présente l’interface de l’application, la navigation entre les pages, ainsi que les principales fonctionnalités :
+
+[Interaction_avancée_TP1.mp4](Interaction_avanc%C3%A9e_TP1.mp4)
